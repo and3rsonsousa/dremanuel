@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.link {
+	@apply px-7 py-4 block rounded-2xl outline-none bg-zinc-900 font-semibold tracking-tighter text-2xl hover:bg-zinc-800;
+}
