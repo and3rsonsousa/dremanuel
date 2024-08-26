@@ -41,7 +41,9 @@ export default function Index() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://wa.me/5588997925279?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20CONSULTA%20OFTALMOL%C3%93GICA%20com%20o%20Dr.%20Emanuel%20em%20Sobral."
+							href={encodeURI(
+								"https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM SOBRAL com o Dr. Emanuel."
+							)}
 							className="link"
 						>
 							Sobral
@@ -49,7 +51,9 @@ export default function Index() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://wa.me/5588997925279?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20CONSULTA%20OFTALMOL%C3%93GICA%20com%20o%20Dr.%20Emanuel%20em%20Massap%C3%AA."
+							href={encodeURI(
+								"https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM MASSAPÊ com o Dr. Emanuel."
+							)}
 							className="link"
 						>
 							Massapê
@@ -57,7 +61,9 @@ export default function Index() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://wa.me/5588997925279?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20CONSULTA%20OFTALMOL%C3%93GICA%20com%20o%20Dr.%20Emanuel%20em%20Jijoca."
+							href={encodeURI(
+								"https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM JIJOCA com o Dr. Emanuel."
+							)}
 							className="link"
 						>
 							Jijoca
@@ -65,7 +71,9 @@ export default function Index() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://wa.me/5588997925279?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20CONSULTA%20OFTALMOL%C3%93GICA%20com%20o%20Dr.%20Emanuel%20no%20Ipu."
+							href={encodeURI(
+								"https://wa.me/+5588992003000?text=Olá, gostaria de marcar uma CONSULTA OFTALMOLÓGICA EM IPU com o Dr. Emanuel."
+							)}
 							className="link"
 						>
 							Ipu
